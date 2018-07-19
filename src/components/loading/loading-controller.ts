@@ -52,7 +52,7 @@ import { LoadingOptions } from './loading-options';
  * constructor(public loadingCtrl: LoadingController) { }
  *
  * presentLoadingDefault() {
- *   const loading = this.loadingCtrl.create({
+ *   const loading = this.loadingCtr.create({
  *     content: 'Please wait...'
  *   });
  *
